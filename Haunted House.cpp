@@ -20,6 +20,7 @@ void FirstDoor();//функция первой двери
 void SecondDoor();//функция второй двери
 void ThirdDoor();//функция третьей двери
 void TheEnd();//вывод выигрышного финала
+void TheLoss();//проигрыш
 
 int main()
 {
@@ -79,28 +80,24 @@ int main()
 				}
 				else
 				{
-					cout << "\n\n\tОтвет неверный..." << endl;
-					cout << "\n\n\tЩелкая мышкой и стуча по клавиатуре на Вас надвигается привидение..." << endl;
+					TheLoss();//проигрыш
 				}
 			}
 
 			else
 			{
-				cout << "\n\n\tОтвет неверный..." << endl;
-				cout << "\n\n\tЩелкая мышкой и стуча по клавиатуре на Вас надвигается привидение..." << endl;
+				TheLoss();//проигрыш
 			}
 		}
 		else
 		{
-			cout << "\n\n\tОтвет неверный..." << endl;
-			cout << "\n\n\tЩелкая мышкой и стуча по клавиатуре на Вас надвигается привидение..." << endl;
+			TheLoss();//проигрыш
 		}
 	}
 	else
 	{
 		cout << "\n\n\t Ну что ж, оставайся сидеть в подвале..." << endl;
 	}
-
 }
 
 void FirstDoor()
@@ -136,10 +133,9 @@ void FirstDoor()
 	cout << "\t|##############################|" << endl;
 	cout << "\t|##############################|" << endl;
 	cout << "\t--------------------------------" << endl;
-
 	cout << "\n\n\t" << endl;
 	cout << "\n\n\t" << endl;
-
+	cout << "\n\n\tВведите число:" << endl;
 	while (score != 0)//счетчик количества попыток
 	{
 		cin >> number1;
@@ -151,7 +147,6 @@ void FirstDoor()
 		cout << "\nИстрачено попыток " << 3 - score  << endl;
 	}
 	score = 3;//обновляем количество попыток
-	
 }
 void SecondDoor()
 {
@@ -188,10 +183,9 @@ void SecondDoor()
 	cout << "\t|##############################|" << endl;
 	cout << "\t|##############################|" << endl;
 	cout << "\t--------------------------------" << endl;
-
 	cout << "\n\n\t" << endl;
 	cout << "\n\n\t" << endl;
-
+	cout << "\n\n\tВведите число:" << endl;
 	while (score != 0)//счетчик количества попыток
 	{
 		cin >> number2;
@@ -203,7 +197,6 @@ void SecondDoor()
 		cout << "\nИстрачено попыток " << 3 - score << endl;
 	}
 	score = 3;//обновляем количество попыток
-	
 }
 
 void ThirdDoor()
@@ -241,10 +234,9 @@ void ThirdDoor()
 	cout << "\t|##############################|" << endl;
 	cout << "\t|##############################|" << endl;
 	cout << "\t--------------------------------" << endl;
-
 	cout << "\n\n\t" << endl;
 	cout << "\n\n\t" << endl;
-
+	cout << "\n\n\tВведите число:" << endl;
 	while (score != 0)//счетчик количества попыток
 	{
 		cin >> number3;
@@ -255,7 +247,6 @@ void ThirdDoor()
 		}
 		cout << "\nИстрачено попыток " << 3 - score << endl;
 	}
-	
 }
 
 void TheEnd()
@@ -291,5 +282,9 @@ void TheEnd()
 	cout << "\n\t\n" << endl;
 	cout << "\n\t\n" << endl;
 	cout << "\n\t\n" << endl;
-	
+}
+void TheLoss()
+{
+	cout << "\n\n\tОтвет неверный..." << endl;
+	cout << "\n\n\tЩелкая мышкой и стуча по клавиатуре на Вас надвигается привидение..." << endl;
 }
