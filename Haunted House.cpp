@@ -282,9 +282,11 @@ void TheEnd()
 	cout << "\n\t\n" << endl;
 	cout << "\n\t\n" << endl;
 	cout << "\n\t\n" << endl;
+	system("pause");
 }
 void TheLoss()
 {
 	cout << "\n\n\tОтвет неверный..." << endl;
 	cout << "\n\n\tЩелкая мышкой и стуча по клавиатуре на Вас надвигается привидение..." << endl;
+	system("pause");
 }
