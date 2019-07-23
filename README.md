@@ -21,6 +21,16 @@ ___
 
 Если число введено неверно, то на игрока нападает привидение и он остается в доме.
 
+Проигрыш
+
+![Alt Text](https://github.com/itstep-vrn/HauntedHouse/blob/master/Loss.gif)
+
+
+Выигрыш
+
+![Alt Text](https://github.com/itstep-vrn/HauntedHouse/blob/master/Win.gif)
+
+
 ## Воспроизведение
 
 * Консоль
