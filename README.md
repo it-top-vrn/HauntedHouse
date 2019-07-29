@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/itstep-vrn/HauntedHouse/blob/master/LICENSE) [![CodeFactor](https://www.codefactor.io/repository/github/itstep-vrn/hauntedhouse/badge)](https://www.codefactor.io/repository/github/itstep-vrn/hauntedhouse) [![Gitter](https://badges.gitter.im/itstep-vrn/HauntedHouse.svg)](https://gitter.im/itstep-vrn/HauntedHouse?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 # Haunted House
 
 Консольная игра с загадками
