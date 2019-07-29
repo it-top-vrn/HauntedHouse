@@ -40,15 +40,26 @@ ___
 
 ## Начало работы
 
-Скопируйте файл .exe в любое месте на вашем компьютере. Если у вас установлены библиотеки Visual Studio или сама программа Visual Studio, игра запустится.
-
-Если программа Visual Studio не установлена, система может запросить следующие файлы: msvcp140d.dll, vcruntime140.dll, ucrtbased.dll — это компоненты пакета от корпорации Microsoft Visual C++ 2015.
-Скачайте данные файлы и разместите в корневой директории windows:
-
-* C:\Windows\System32 для x32 системы;
-* C:\Windows\SysWOW64 для x64 системы.
-
+Скопируйте файл .exe в любое место на вашем компьютере. Если у вас установлена программа Visual Studio, игра запустится.  
+Если программа Visual Studio не установлена, система может запросить следующие файлы: msvcp140d.dll, vcruntime140.dll, ucrtbased.dll —  это компоненты пакета от корпорации Microsoft Visual C++ 2015.  
+Скачайте данные файлы и разместите в корневой директории windows:  
+- `C:\Windows\System32` для x32 системы;
+- `C:\Windows\SysWOW64` для x64 системы.  
 Перезагрузите компьютер и запустите программу.
+
+***Скачать файлы для Windows 10 и других версий можно пройдя по ссылкам:***  
+
+Для x64:  
+
+- [msvcp140d.dll](http://dlltop.ru//files/msvcp140d-64.zip)  
+- [vcruntime140.dll](http://dlltop.ru//files/vcruntime140-64.zip)  
+- [ucrtbased.dll](http://dlltop.ru//files/ucrtbase-64.zip )  
+
+Для x32: 
+
+- [msvcp140d.dll](http://dlltop.ru//files/msvcp140d.zip)  
+- [vcruntime140.dll](http://dlltop.ru//files/vcruntime140.zip)  
+- [ucrtbased.dll](http://dlltop.ru//files/ucrtbase.zip)
 
 
 ## Описание кода программы:
